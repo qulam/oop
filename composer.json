@@ -1,0 +1,17 @@
+{
+    "name": "user/php",
+    "description": "Try for oop",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+
+    	"psr-4": {
+    		"app\\":"app/",
+            "core\\":"app/core/",
+            "params\\":"app/config/",
+            "controllers\\":"app/controllers/" ,
+            "models\\":"app/models/"
+    	}
+
+    }
+}
